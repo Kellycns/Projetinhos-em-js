@@ -43,3 +43,5 @@ Um contador que funciona a partir da interação do usuário. Inicia a contagem 
 - .style.color
 - .innerHTML
 - addEventListener()
+
+[repositório](https://github.com/Kellycns/Projetinhos-em-js/tree/main/contador)
