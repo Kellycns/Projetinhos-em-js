@@ -11,4 +11,9 @@ Aqui estão reunidos alguns projetinos que fiz para treinar JavaScript.
 
 ![](trocador-de-cores/img/trocador-de-cores.gif)
 
+Mudando a cor de fundo da página manipulando o [DOM](http://devfuria.com.br/javascript/dom/).
+- document.querySelector()
+- addEventListener()
+- document.body.style.backgroundColor
+
 [repositório](https://github.com/Kellycns/Projetinhos-em-js/tree/main/trocador-de-cores)
