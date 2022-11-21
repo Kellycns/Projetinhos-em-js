@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    background-color: rgb(176, 213, 201);
+}
+main {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+h1 {
+    font-size: 16vw;
+}
+p {
+    font-size: 10vw;
+}
+button {
+    width: 18vw;
+    height: 6vw;
+    font-size: 4vw;
+    border-style: none;
+    border-radius: 10vw;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(109, 147, 183);
+}
