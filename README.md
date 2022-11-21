@@ -11,7 +11,7 @@ Aqui estão reunidos alguns projetinos que fiz para treinar JavaScript.
 
 ![](trocador-de-cores/img/trocador-de-cores.gif)
 
-Mudando a cor de fundo da página manipulando o [DOM](http://devfuria.com.br/javascript/dom/).
+Ao clicar nos botões disponíveis na página, a cor de fundo é alterada de acordo com o botão escolhido. Este é o primeiro projeto desta lista que faz manipulação do [DOM](http://devfuria.com.br/javascript/dom/).
 - document.querySelector()
 - addEventListener()
 - document.body.style.backgroundColor
