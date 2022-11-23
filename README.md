@@ -40,8 +40,27 @@ Um contador que funciona a partir da interação do usuário. Inicia a contagem 
 
 ⌨️ Alguns elementos usados
 - document.querySelector()
-- .style.color
-- .innerHTML
+- element.style.color
+- element.innerHTML
 - addEventListener()
 
 [repositório](https://github.com/Kellycns/Projetinhos-em-js/tree/main/contador)
+
+## Projeto 3 - Modal
+<br>
+
+![](modal/img/modal.gif)
+
+Aqui temos um modal, uma janela que aparece e desaparece sobre um contúdo sem modifica-lo.
+
+🖱️ Interações com a página
+- Botão "Abrir o modal" - Mostra o modal na tela
+- Botão "X" - Esconde o modal
+
+⌨️ Alguns elementos usados
+- document.querySelector()
+- addEventListener()
+- classList.add()
+- classList.remove()
+
+[repositório](https://github.com/Kellycns/Projetinhos-em-js/tree/main/modal)
