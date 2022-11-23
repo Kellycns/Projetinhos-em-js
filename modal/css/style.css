@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(171, 190, 184);
+}
+.container {
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(35, 175, 175);
+    border-radius: 2vw;
+
+}
+
+
+.mini-container{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h1 {
+    color: white;
+    padding: 1vh;
+    margin-bottom: 5px;
+    font-size: 4vw;
+}
+.botao-abrir {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(35, 175, 175);
+    border-style:  none;
+    border-radius: 2vw;
+    padding: 1vw 4vw;
+}
+
+.botao-fechar {
+ color: rgb(92, 92, 240);
+ background-color: rgb(255, 255, 255);
+ padding: 0.4vw 0.65vw;
+ border-style: none;
+ font-weight: bold;
+ border-radius: 2vw;
+ cursor: pointer;
+}
+.modal-fechado {
+    visibility: hidden;
+    position: absolute;
+    bottom: 2vh;
+    border-radius: 2vw;
+    background-color: rgb(92, 92, 240);
+    width: 40vw;
+    height: 35vh;
+    text-align: center;
+}
+
+.modal-aberto {
+    visibility: visible;
+}
+
+p {
+    padding: 2px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 5vw;
+    margin-top: 5vh;
+}
